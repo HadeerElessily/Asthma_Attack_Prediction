@@ -15,6 +15,7 @@ python-dateutil
 pytz
 six
 sklearn
+scikit-learn
 tzdata
 Werkzeug
 zipp
