@@ -10,7 +10,7 @@ CORS(app)
 model = joblib.load('DTclf.joblib')
 
 
-@app.route('/predict', methods=['POST'])
+@app.route('/', methods=['POST'])
 def predict():
     try:
         data = request.json
