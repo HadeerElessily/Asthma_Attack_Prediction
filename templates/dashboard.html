@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Asthma Dashboard</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Asthma Dashboard</h1>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Cough</th>
+            <th>Phlegm</th>
+            <th>Wheeze</th>
+            <th>Dyspnea</th>
+            <th>Exercise Symptoms</th>
+            <th>Allergic Rhinitis</th>
+            <th>Parents with Asthma</th>
+            <th>Reaction to Irritants</th>
+            <th>Reaction to Emotions</th>
+            <th>Eczema</th>
+            <th>Food Allergy</th>
+            <th>Cold</th>
+            <th>Air Pollution</th>
+            <th>Exposure to Smoke</th>
+            <th>Animal Exposure</th>
+            <th>Dampness</th>
+            <th>Asthma</th>
+        </tr>
+        {% for data in asthma_data %}
+        <tr>
+            <td>{{ data.id }}</td>
+            <td>{{ data.cough }}</td>
+            <td>{{ data.phlegm }}</td>
+            <td>{{ data.wheeze }}</td>
+            <td>{{ data.Dysp }}</td>
+            <td>{{ data.Exe }}</td>
+            <td>{{ data.AR }}</td>
+            <td>{{ data.par2 }}</td>
+            <td>{{ data.RIr }}</td>
+            <td>{{ data.REm }}</td>
+            <td>{{ data.Ecz }}</td>
+            <td>{{ data.Food }}</td>
+            <td>{{ data.Cold }}</td>
+            <td>{{ data.AP }}</td>
+            <td>{{ data.Psmoke }}</td>
+            <td>{{ data.Animal }}</td>
+            <td>{{ data.Damp }}</td>
+            <td>{{ data.asthma }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
