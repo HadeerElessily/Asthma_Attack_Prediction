@@ -7,7 +7,7 @@ app = Flask(__name__)
 CORS(app)
 
 
-model = joblib.load('DTclf.joblib')
+model = joblib.load('RFclf.joblib')
 
 
 @app.route('/', methods=['POST'])
