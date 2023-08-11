@@ -24,8 +24,7 @@ The Flutter mobile app provides an intuitive user interface for users to input t
 ### Predictive Model Results Analysis 
 
 
-![Image Alt Text]([https://github.com/HadeerElessily/Asthma_Attack_Prediction/blob/main/deployment.jpg](https://github.com/HadeerElessily/Asthma_Attack_Prediction/blob/main/mlresults.jpg
-)
+![Image Alt Text](https://github.com/HadeerElessily/Asthma_Attack_Prediction/blob/main/mlresults.jpg).
 
 
 ### Deplyment 🚀
