@@ -5,6 +5,7 @@ predictive model is established using a Flask API.
 
 ### Introduction
 Asthma is a chronic respiratory condition that affects millions of people worldwide. Early prediction of asthma attacks can significantly improve patient management and reduce the severity of attacks. This project focuses on building a predictive model that utilizes machine learning techniques to forecast asthma attacks based on relevant input features, Additionaly there is multiple disease management features as following:
+
 1.Air quality
 
 2.Nearest medical institution 
