@@ -28,6 +28,6 @@ The Flutter mobile app provides an intuitive user interface for users to input t
 
 ### Demo
 
-Watch this [video tutorial](https://drive.google.com/drive/u/0/folders/1a3t659E6SJy_8sb6ybYmKs61w0-rlJpw).
+Watch this [video tutorial](https://drive.google.com/file/d/1TkbNnPm3_Q0lML5qOL7xMF9FpWx4JiD7/view?usp=drive_link).
 
 
